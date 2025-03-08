@@ -455,7 +455,7 @@ Tools and Common Issues
 
 **Proxmox Virtual Environment (PVE) and Proxmox Backup Server (PBS)** are powerful tools for virtualization and backup, but like any complex system, users may encounter issues. 
 
-[YouTube video: Install Proxmox 8.0!](https://www.youtube.com/watch?v=sZcOlW-DwrU)
+[YouTube video: Proxmox 8.0!](https://www.youtube.com/watch?v=sZcOlW-DwrU)
 
 Below are some common problems reported by users:
 
