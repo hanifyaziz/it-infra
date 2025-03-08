@@ -1,4 +1,4 @@
-# it-infra
+# IT-Infra
 Tools and Common Issues
 
 # Contents
