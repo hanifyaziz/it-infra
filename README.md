@@ -6,7 +6,8 @@ Tools and Common Issues
 - [OpenZiti](#openziti)
 - [SmartDeploy](#smartdeploy)
 - [NinjaOne](#ninjaone)
-- [Proxmox Virtual Environment (PVE) and Proxmox Backup Server (PBS)](#proxmox-virtual-environment-pve-and-proxmox-backup-server-pbs)
+- [Proxmox Virtual Environment (PVE)](#proxmox-virtual-environment-pve)
+- [Proxmox Backup Server (PBS)](#proxmox-backup-server-pbs)
 - [Synology Backup Server](#synology-backup-server)
 - [Active Backup for Office 365](#active-backup-for-office-365)
 - [Docker](#docker)
@@ -21,7 +22,11 @@ Tools and Common Issues
 
 # OpenZiti
 
-**OpenZiti** is an open-source, zero-trust networking platform that provides secure, private, and scalable connectivity for applications and services. While it is a powerful solution, users may encounter issues. Below is a list of **common problems**, their **symptoms**, and **possible resolutions**:
+**OpenZiti** is an open-source, zero-trust networking platform that provides secure, private, and scalable connectivity for applications and services. While it is a powerful solution, users may encounter issues. 
+
+**OpenZiti Documentation:** https://openziti.io/docs/reference/
+
+Below is a list of **common problems**, their **symptoms**, and **possible resolutions**:
 
 ## Common Issues with OpenZiti
 
@@ -195,7 +200,11 @@ Tools and Common Issues
 
 # SmartDeploy
 
-**SmartDeploy**, powered by PDQ.com, is a tool for automating OS deployment and imaging. While it simplifies the deployment process, users may encounter issues. Below is a list of **common problems**, their **symptoms**, and **possible resolutions**:
+**SmartDeploy**, powered by PDQ.com, is a tool for automating OS deployment and imaging. While it simplifies the deployment process, users may encounter issues. 
+
+**SmartDeploy Documentation:** https://smartdeploy.pdq.com/hc/en-us/articles/21577398522267-Getting-Started-with-SmartDeploy
+
+Below is a list of **common problems**, their **symptoms**, and **possible resolutions**:
 
 ## Common Issues with SmartDeploy
 
@@ -322,7 +331,9 @@ Tools and Common Issues
 
 # NinjaOne
 
-**NinjaOne** (formerly NinjaRMM) is a remote monitoring and management (RMM) platform used for IT management, automation, and monitoring. While it is a powerful tool, users may encounter issues. Below is a list of **common problems**, their **symptoms**, and **possible resolutions**:
+**NinjaOne** (formerly NinjaRMM) is a remote monitoring and management (RMM) platform used for IT management, automation, and monitoring. While it is a powerful tool, users may encounter issues. 
+
+Below is a list of **common problems**, their **symptoms**, and **possible resolutions**:
 
 ## Common Issues with NinjaOne
 
@@ -451,9 +462,11 @@ Tools and Common Issues
 - **Update the Agent:** Ensure the NinjaOne agent is updated to the latest version.
 - **Community Support:** Engage with the NinjaOne community or support team for help with specific issues.
 
-# Proxmox Virtual Environment (PVE) and Proxmox Backup Server (PBS)
+# Proxmox Virtual Environment (PVE)
 
-**Proxmox Virtual Environment (PVE) and Proxmox Backup Server (PBS)** are powerful tools for virtualization and backup, but like any complex system, users may encounter issues. 
+**Proxmox Virtual Environment (PVE)** is an open-source server management platform for enterprise virtualization. It tightly integrates the KVM hypervisor and Linux Containers (LXC), software-defined storage and networking functionality, on a single platform. With the integrated web-based user interface you can manage VMs and containers, high availability for clusters, or the integrated disaster recovery tools with ease.
+
+**PVE Documentation:** https://pve.proxmox.com/pve-docs/
 
 [YouTube video: Proxmox 8.0!](https://www.youtube.com/watch?v=sZcOlW-DwrU)
 
@@ -586,7 +599,13 @@ Below are some common problems reported by users:
 
 ---
 
-## Proxmox Backup Server (PBS) Issues
+# Proxmox Backup Server (PBS)
+
+**Proxmox Backup Server (PBS)** is an enterprise-class, client-server backup package which provides strong encryption without compromising on speed or flexibility. The Backup Server is based on a minimal Debian GNU/Linux distribution with built-in ZFS support. Thus, it can be installed on bare-metal, using the downloadable ISO image.
+
+**PBS Documentation:** https://pbs.proxmox.com/docs/
+
+Below are some common problems reported by users:
 
 ### 1. Backup Failures
 
