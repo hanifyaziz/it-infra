@@ -197,6 +197,8 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
   ziti update
   ```
 - **Community Support:** https://openziti.discourse.group/
+[Main Contents](#contents)
+
 # SmartDeploy
 
 **SmartDeploy**, powered by PDQ.com, is a tool for automating OS deployment and imaging. While it simplifies the deployment process, users may encounter issues. 
@@ -327,6 +329,9 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
 - **Test on a Single Machine:** Always test deployments on a single machine before deploying to multiple machines.
 - **Update SmartDeploy:** Ensure you are using the latest version of SmartDeploy.
 - **Community Support:** https://discord.com/invite/pdq
+
+[Main Contents](#contents)
+
 # NinjaOne
 
 **NinjaOne** (formerly NinjaRMM) is a remote monitoring and management (RMM) platform used for IT management, automation, and monitoring. While it is a powerful tool, users may encounter issues. 
@@ -458,7 +463,9 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
 - **Check Logs:** Review NinjaOne agent logs (`C:\\ProgramData\\NinjaRMMAgent\\logs`) for errors.
 - **Test on a Single Endpoint:** Always test configurations on a single endpoint before applying them to multiple endpoints.
 - **Update the Agent:** Ensure the NinjaOne agent is updated to the latest version.
-- **Community Support:** Engage with the NinjaOne community or support team for help with specific issues.
+- **Community Support:** https://discord.com/invite/ninjaone
+
+[Main Contents](#contents)
 
 # Proxmox Virtual Environment (PVE)
 
@@ -718,6 +725,8 @@ Below are some common problems reported by users:
 - **Monitor Resources:** Use monitoring tools to identify and resolve resource bottlenecks.
 - **Community Support:** https://forum.proxmox.com/
 
+[Main Contents](#contents)
+
 # Synology Backup Server
 
 **Synology Backup Server** (often used with **Active Backup for Business** or **Hyper Backup**) is a robust solution for backing up data, virtual machines, and physical servers. While it is reliable, users may encounter issues. Below is a list of **common problems**, their **symptoms**, and **possible resolutions**:
@@ -843,11 +852,15 @@ Below are some common problems reported by users:
 - **Check Logs:** Review Synology Backup Server logs (**Log Center**) for errors.
 - **Test on a Single Device:** Always test backup and restore processes on a single device before scaling.
 - **Update Software:** Ensure DSM and backup applications are updated to the latest version.
-- **Community Support:** Engage with the Synology community or support team for help with specific issues.
+- **Community Support:** https://community.synology.com/enu
+
+[Main Contents](#contents)
 
 # Active Backup for Office 365
 
-**Active Backup for Office 365** is a Synology solution designed to back up Microsoft 365 data (e.g., Exchange Online, SharePoint, OneDrive, and Teams). While it is a powerful tool, users may encounter issues. Below is a list of **common problems**, their **symptoms**, and **possible resolutions**:
+**Active Backup for Office 365** is a Synology solution designed to back up Microsoft 365 data (e.g., Exchange Online, SharePoint, OneDrive, and Teams). 
+
+Below is a list of **common problems**, their **symptoms**, and **possible resolutions**:
 
 ## Common Issues with Active Backup for Office 365
 
@@ -970,7 +983,9 @@ Below are some common problems reported by users:
 - **Check Logs:** Review Active Backup for Office 365 logs (**Log Center**) for errors.
 - **Test on a Single Account:** Always test backup and restore processes on a single account before scaling.
 - **Update Software:** Ensure DSM and Active Backup for Office 365 are updated to the latest version.
-- **Community Support:** Engage with the Synology community or support team for help with specific issues.
+- **Community Support:**
+
+[Main Contents](#contents)
 
 # Active Backup for Endpoint
 
@@ -1103,7 +1118,9 @@ Below are some common problems reported by users:
 - **Check Logs:** Review Active Backup for Endpoint logs (**Log Center**) for errors.
 - **Test on a Single Endpoint:** Always test backup and restore processes on a single endpoint before scaling.
 - **Update Software:** Ensure DSM and Active Backup for Endpoint are updated to the latest version.
-- **Community Support:** Engage with the Synology community or support team for help with specific issues.
+- **Community Support:**
+
+[Main Contents](#contents)
 
 # Docker
 
@@ -1294,6 +1311,8 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
 - **Update Docker:** Ensure Docker and Docker Compose are updated to the latest version.
 - **Test Locally:** Test configurations on a local environment before deploying to production.
 - **Community Support:** https://forums.docker.com/
+
+[Main Contents](#contents)
 
 # Kubernetes
 
@@ -1518,6 +1537,8 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
 - **Update Kubernetes:** Ensure Kubernetes and its components are updated to the latest version.
 - **Community Support:** https://discuss.kubernetes.io/
 
+[Main Contents](#contents)
+
 # Zabbix
 
 **Zabbix** is a powerful open-source monitoring solution used to track the performance and availability of IT infrastructure. While it is highly effective, users may encounter issues. 
@@ -1699,6 +1720,8 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
 - **Test Connectivity:** Use tools like `ping`, `telnet`, and `zabbix_get` to verify connectivity.
 - **Update Zabbix:** Ensure Zabbix and its components are updated to the latest version.
 - **Community Support:** https://www.zabbix.com/forum/
+
+[Main Contents](#contents)
 
 # Chocolatey
 
@@ -1889,6 +1912,8 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
   ```
 - **Community Support:** https://community.chocolatey.org/
 
+[Main Contents](#contents)
+
 # pfSense
 
 **pfSense** is a powerful open-source firewall and router platform based on FreeBSD.
@@ -2036,6 +2061,8 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
   pfSense-upgrade
   ```
 - **Community Support:** https://forum.netgate.com/
+
+[Main Contents](#contents)
 
 # FreePBX
 
@@ -2191,6 +2218,8 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
   fwconsole upgrade
   ```
 - **Community Support:** https://community.freepbx.org/
+
+[Main Contents](#contents)
 
 # CephFS
 
@@ -2403,6 +2432,8 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
 - **Monitor Cluster Health:** Use `ceph status` and `ceph dashboard` to monitor cluster health and performance.
 - **Update Ceph:** Ensure Ceph and CephFS are updated to the latest version.
 
+[Main Contents](#contents)
+
 ---
 
 # LAPS
@@ -2534,6 +2565,8 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
 - **Check Logs:** Review the LAPS client logs (`C:\ProgramData\LAPS\Logs`) for errors.
 - **Test Permissions:** Use `Get-AdmPwdPassword` to test password retrieval permissions.
 - **Update LAPS:** Ensure LAPS components are updated to the latest version.
+
+[Main Contents](#contents)
 
 ---
 
@@ -2702,6 +2735,7 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
     w32tm /query /status
     w32tm /resync
     ```
+[Main Contents](#contents)
 
 ---
 
