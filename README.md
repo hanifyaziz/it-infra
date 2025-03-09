@@ -196,8 +196,7 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
   ```bash
   ziti update
   ```
-- **Community Support:** Engage with the OpenZiti community or forums for help with specific issues.
-
+- **Community Support:** https://openziti.discourse.group/
 # SmartDeploy
 
 **SmartDeploy**, powered by PDQ.com, is a tool for automating OS deployment and imaging. While it simplifies the deployment process, users may encounter issues. 
@@ -327,8 +326,7 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
 - **Check Logs:** Review deployment logs (`C:\\Windows\\Panther\\UnattendGC\\setupact.log`) for errors.
 - **Test on a Single Machine:** Always test deployments on a single machine before deploying to multiple machines.
 - **Update SmartDeploy:** Ensure you are using the latest version of SmartDeploy.
-- **Community Support:** Engage with the SmartDeploy or PDQ community for help with specific issues.
-
+- **Community Support:** https://discord.com/invite/pdq
 # NinjaOne
 
 **NinjaOne** (formerly NinjaRMM) is a remote monitoring and management (RMM) platform used for IT management, automation, and monitoring. While it is a powerful tool, users may encounter issues. 
@@ -718,7 +716,7 @@ Below are some common problems reported by users:
 - **Check Logs:** Always review logs (`/var/log/syslog`, `journalctl`, or Proxmox-specific logs) for errors.
 - **Test Backups:** Regularly test backups by performing restores to ensure data integrity.
 - **Monitor Resources:** Use monitoring tools to identify and resolve resource bottlenecks.
-- **Community Support:** Engage with the Proxmox community or forums for help with specific issues.
+- **Community Support:** https://forum.proxmox.com/
 
 # Synology Backup Server
 
@@ -1109,7 +1107,11 @@ Below are some common problems reported by users:
 
 # Docker
 
-**Docker** is a popular platform for developing, shipping, and running applications in containers. While it is highly efficient, users may encounter issues. Below is a list of **common problems**, their **symptoms**, and **possible resolutions**:
+**Docker** is a popular platform for developing, shipping, and running applications in containers. While it is highly efficient, users may encounter issues. 
+
+**Docker Documentation:** https://docs.docker.com/
+
+Below is a list of **common problems**, their **symptoms**, and **possible resolutions**:
 
 ## Common Issues with Docker
 
@@ -1291,11 +1293,19 @@ Below are some common problems reported by users:
 - **Check Logs:** Use `docker logs <container_id>` to view container logs.
 - **Update Docker:** Ensure Docker and Docker Compose are updated to the latest version.
 - **Test Locally:** Test configurations on a local environment before deploying to production.
-- **Community Support:** Engage with the Docker community or forums for help with specific issues.
+- **Community Support:** https://forums.docker.com/
 
 # Kubernetes
 
-**Kubernetes** is a powerful container orchestration platform, but it can be complex, and users may encounter issues. Below is a list of **common problems**, their **symptoms**, and **possible resolutions**:
+**Kubernetes** is a powerful container orchestration platform, but it can be complex, and users may encounter issues. 
+
+[YouTube video: NetworkChuck](https://www.youtube.com/watch?v=7bA0gTroJjw)
+
+[YouTube video: Crash Course](https://www.youtube.com/watch?v=s_o8dwzRlu4)
+
+**Kubernetes Documentation:** https://kubernetes.io/docs/home/supported-doc-versions/
+
+Below is a list of **common problems**, their **symptoms**, and **possible resolutions**:
 
 ## Common Issues with Kubernetes
 
@@ -1506,11 +1516,15 @@ Below are some common problems reported by users:
 - **Check Logs:** Use `kubectl logs <pod_name>` to view pod logs.
 - **Describe Resources:** Use `kubectl describe <resource_type> <resource_name>` for detailed information.
 - **Update Kubernetes:** Ensure Kubernetes and its components are updated to the latest version.
-- **Community Support:** Engage with the Kubernetes community or forums for help with specific issues.
+- **Community Support:** https://discuss.kubernetes.io/
 
 # Zabbix
 
-**Zabbix** is a powerful open-source monitoring solution used to track the performance and availability of IT infrastructure. While it is highly effective, users may encounter issues. Below is a list of **common problems**, their **symptoms**, and **possible resolutions**:
+**Zabbix** is a powerful open-source monitoring solution used to track the performance and availability of IT infrastructure. While it is highly effective, users may encounter issues. 
+
+**Zabbix Documentation:** https://www.zabbix.com/manuals
+
+Below is a list of **common problems**, their **symptoms**, and **possible resolutions**:
 
 ## Common Issues with Zabbix
 
@@ -1684,11 +1698,15 @@ Below are some common problems reported by users:
 - **Check Logs:** Review Zabbix server, agent, and proxy logs (`/var/log/zabbix/`) for errors.
 - **Test Connectivity:** Use tools like `ping`, `telnet`, and `zabbix_get` to verify connectivity.
 - **Update Zabbix:** Ensure Zabbix and its components are updated to the latest version.
-- **Community Support:** Engage with the Zabbix community or forums for help with specific issues.
+- **Community Support:** https://www.zabbix.com/forum/
 
 # Chocolatey
 
-**Chocolatey** is a package manager for Windows that simplifies software installation, updates, and management. While it is highly efficient, users may encounter issues. Below is a list of **common problems**, their **symptoms**, and **possible resolutions**:
+**Chocolatey** is a package manager for Windows that simplifies software installation, updates, and management. While it is highly efficient, users may encounter issues. 
+
+**Chocolatey Documentation:** https://docs.chocolatey.org/en-us/
+
+Below is a list of **common problems**, their **symptoms**, and **possible resolutions**:
 
 ## Common Issues with Chocolatey
 
@@ -1869,11 +1887,15 @@ Below are some common problems reported by users:
   ```bash
   choco upgrade chocolatey
   ```
-- **Community Support:** Engage with the Chocolatey community or forums for help with specific issues.
+- **Community Support:** https://community.chocolatey.org/
 
 # pfSense
 
-**pfSense** is a powerful open-source firewall and router platform based on FreeBSD. While it is highly reliable, users may encounter issues. Below is a list of **common problems**, their **symptoms**, and **possible resolutions**:
+**pfSense** is a powerful open-source firewall and router platform based on FreeBSD.
+
+**pfSense Documentation:** https://docs.netgate.com/pfsense/en/latest/
+
+Below is a list of **common problems**, their **symptoms**, and **possible resolutions**:
 
 ## Common Issues with pfSense
 
@@ -2013,11 +2035,15 @@ Below are some common problems reported by users:
   ```bash
   pfSense-upgrade
   ```
-- **Community Support:** Engage with the pfSense community or forums for help with specific issues.
+- **Community Support:** https://forum.netgate.com/
 
 # FreePBX
 
-**FreePBX** is a popular open-source GUI (Graphical User Interface) for managing Asterisk, a powerful telephony platform. While it is highly flexible, users may encounter issues. Below is a list of **common problems**, their **symptoms**, and **possible resolutions**:
+**FreePBX** is a popular open-source GUI (Graphical User Interface) for managing Asterisk, a powerful telephony platform. 
+
+**FreePBX Documentation:** https://sangomakb.atlassian.net/wiki/spaces/FP/pages/9699329/FreePBX+OpenSource+Project
+
+Below is a list of **common problems**, their **symptoms**, and **possible resolutions**:
 
 ## Common Issues with FreePBX
 
@@ -2164,11 +2190,15 @@ Below are some common problems reported by users:
   ```bash
   fwconsole upgrade
   ```
-- **Community Support:** Engage with the FreePBX community or forums for help with specific issues.
+- **Community Support:** https://community.freepbx.org/
 
 # CephFS
 
-**CephFS** is a distributed file system built on top of the Ceph storage system. While it is highly scalable and reliable, users may encounter issues. Below is a list of **common problems**, their **symptoms**, and **possible resolutions**:
+**CephFS** is a distributed file system built on top of the Ceph storage system. 
+
+**CephFS Documentation:** https://docs.ceph.com/en/reef/cephfs/ , https://docs.redhat.com/en/documentation/red_hat_ceph_storage/2/html/ceph_file_system_guide_technology_preview/what_is_the_ceph_file_system_cephfs
+
+Below is a list of **common problems**, their **symptoms**, and **possible resolutions**:
 
 ## Common Issues with CephFS
 
@@ -2372,13 +2402,16 @@ Below are some common problems reported by users:
 - **Check Logs:** Review Ceph logs (`/var/log/ceph/`) for errors.
 - **Monitor Cluster Health:** Use `ceph status` and `ceph dashboard` to monitor cluster health and performance.
 - **Update Ceph:** Ensure Ceph and CephFS are updated to the latest version.
-- **Community Support:** Engage with the Ceph community or forums for help with specific issues.
 
 ---
 
 # LAPS
 
-**LAPS (Local Administrator Password Solution)** is a Microsoft solution for managing local administrator passwords on domain-joined computers. While it is a robust tool, users may encounter issues. Below is a list of **common problems**, their **symptoms**, and **possible resolutions**:
+**LAPS (Local Administrator Password Solution)** is a Microsoft solution for managing local administrator passwords on domain-joined computers. 
+
+**LAPS Documentation:** https://learn.microsoft.com/en-us/windows-server/identity/laps/laps-overview
+
+Below is a list of **common problems**, their **symptoms**, and **possible resolutions**:
 
 ## Common Issues with LAPS
 
@@ -2501,13 +2534,14 @@ Below are some common problems reported by users:
 - **Check Logs:** Review the LAPS client logs (`C:\ProgramData\LAPS\Logs`) for errors.
 - **Test Permissions:** Use `Get-AdmPwdPassword` to test password retrieval permissions.
 - **Update LAPS:** Ensure LAPS components are updated to the latest version.
-- **Community Support:** Engage with the LAPS community or forums for help with specific issues.
 
 ---
 
 # Active Directory
 
-**Active Directory (AD)** is a critical component of many IT environments, providing directory services, authentication, and authorization. While it is highly reliable, users may encounter issues. Below is a list of **common problems**, their **symptoms**, and **possible resolutions**:
+**Active Directory (AD)** is a critical component of many IT environments, providing directory services, authentication, and authorization. 
+
+Below is a list of **common problems**, their **symptoms**, and **possible resolutions**:
 
 ## Common Issues with Active Directory
 
@@ -2676,4 +2710,3 @@ Below are some common problems reported by users:
 - **Check Logs:** Review Event Viewer logs (**Applications and Services Logs > Directory Service**) for errors.
 - **Test Connectivity:** Use tools like `ping`, `nslookup`, and `dcdiag` to diagnose network and DNS issues.
 - **Update AD:** Ensure all DCs are updated to the latest version of Windows Server.
-- **Community Support:** Engage with the Active Directory community or forums for help with specific issues.
