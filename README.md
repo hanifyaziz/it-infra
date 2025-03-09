@@ -20,6 +20,8 @@ Tools and Common Issues
 - [LAPS](#laps)
 - [Active Directory](#active-directory)
 
+---
+
 # OpenZiti
 
 **OpenZiti** is an open-source, zero-trust networking platform that provides secure, private, and scalable connectivity for applications and services. While it is a powerful solution, users may encounter issues. 
@@ -185,8 +187,6 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
     ziti policy test <policy_name>
     ```
 
----
-
 ## General Troubleshooting Tips
 
 - **Check Logs:** Review Ziti Controller and Edge Router logs (`/var/log/ziti/`) for errors.
@@ -197,7 +197,10 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
   ziti update
   ```
 - **Community Support:** https://openziti.discourse.group/
+  
 [Main Contents](#contents)
+
+---
 
 # SmartDeploy
 
@@ -321,8 +324,6 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
   - Use the **Post-Deployment Task** feature in SmartDeploy.
   - Test post-deployment configurations on a reference machine.
 
----
-
 ## General Troubleshooting Tips
 
 - **Check Logs:** Review deployment logs (`C:\\Windows\\Panther\\UnattendGC\\setupact.log`) for errors.
@@ -331,6 +332,8 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
 - **Community Support:** https://discord.com/invite/pdq
 
 [Main Contents](#contents)
+
+---
 
 # NinjaOne
 
@@ -456,8 +459,6 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
   - Verify that the browser is supported (e.g., Chrome, Firefox, Edge).
   - Check for network latency or connectivity issues.
 
----
-
 ## General Troubleshooting Tips
 
 - **Check Logs:** Review NinjaOne agent logs (`C:\\ProgramData\\NinjaRMMAgent\\logs`) for errors.
@@ -466,6 +467,8 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
 - **Community Support:** https://discord.com/invite/ninjaone
 
 [Main Contents](#contents)
+
+---
 
 # Proxmox Virtual Environment (PVE)
 
@@ -716,8 +719,6 @@ Below are some common problems reported by users:
   - Verify backup integrity using the `proxmox-backup-client` tool.
   - Ensure the target environment matches the source (e.g., storage configuration).
 
----
-
 ## General Troubleshooting Tips
 
 - **Check Logs:** Always review logs (`/var/log/syslog`, `journalctl`, or Proxmox-specific logs) for errors.
@@ -726,6 +727,8 @@ Below are some common problems reported by users:
 - **Community Support:** https://forum.proxmox.com/
 
 [Main Contents](#contents)
+
+---
 
 # Synology Backup Server
 
@@ -845,8 +848,6 @@ Below are some common problems reported by users:
   - Test restores regularly to ensure backup integrity.
   - Use checksum or hash verification tools if available.
 
----
-
 ## General Troubleshooting Tips
 
 - **Check Logs:** Review Synology Backup Server logs (**Log Center**) for errors.
@@ -855,6 +856,8 @@ Below are some common problems reported by users:
 - **Community Support:** https://community.synology.com/enu
 
 [Main Contents](#contents)
+
+---
 
 # Active Backup for Office 365
 
@@ -976,8 +979,6 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
   - Check for API limitations or throttling related to Teams.
   - Update Active Backup for Office 365 to the latest version.
 
----
-
 ## General Troubleshooting Tips
 
 - **Check Logs:** Review Active Backup for Office 365 logs (**Log Center**) for errors.
@@ -986,6 +987,8 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
 - **Community Support:**
 
 [Main Contents](#contents)
+
+---
 
 # Active Backup for Endpoint
 
@@ -1111,8 +1114,6 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
   - Manually clean up old backups if needed.
   - Adjust retention policies to better match storage capacity.
 
----
-
 ## General Troubleshooting Tips
 
 - **Check Logs:** Review Active Backup for Endpoint logs (**Log Center**) for errors.
@@ -1121,6 +1122,8 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
 - **Community Support:**
 
 [Main Contents](#contents)
+
+---
 
 # Docker
 
@@ -1303,8 +1306,6 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
         max-file: "3"
     ```
 
----
-
 ## General Troubleshooting Tips
 
 - **Check Logs:** Use `docker logs <container_id>` to view container logs.
@@ -1313,6 +1314,8 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
 - **Community Support:** https://forums.docker.com/
 
 [Main Contents](#contents)
+
+---
 
 # Kubernetes
 
@@ -1528,8 +1531,6 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
         verbs: ["get", "list", "watch"]
     ```
 
----
-
 ## General Troubleshooting Tips
 
 - **Check Logs:** Use `kubectl logs <pod_name>` to view pod logs.
@@ -1538,6 +1539,8 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
 - **Community Support:** https://discuss.kubernetes.io/
 
 [Main Contents](#contents)
+
+---
 
 # Zabbix
 
@@ -1712,8 +1715,6 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
     ```
   - Consider using distributed monitoring with proxies.
 
----
-
 ## General Troubleshooting Tips
 
 - **Check Logs:** Review Zabbix server, agent, and proxy logs (`/var/log/zabbix/`) for errors.
@@ -1722,6 +1723,8 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
 - **Community Support:** https://www.zabbix.com/forum/
 
 [Main Contents](#contents)
+
+---
 
 # Chocolatey
 
@@ -1900,8 +1903,6 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
     ```
   - Use a faster internet connection or local repository.
 
----
-
 ## General Troubleshooting Tips
 
 - **Check Logs:** Review Chocolatey logs (`%ChocolateyInstall%\logs\`) for errors.
@@ -1913,6 +1914,8 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
 - **Community Support:** https://community.chocolatey.org/
 
 [Main Contents](#contents)
+
+---
 
 # pfSense
 
@@ -2049,8 +2052,6 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
   - Check disk space and log rotation settings.
   - Enable and configure monitoring settings (**Status > Monitoring**).
 
----
-
 ## General Troubleshooting Tips
 
 - **Check Logs:** Review system logs (**Status > System Logs**) for errors.
@@ -2063,6 +2064,8 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
 - **Community Support:** https://forum.netgate.com/
 
 [Main Contents](#contents)
+
+---
 
 # FreePBX
 
@@ -2206,8 +2209,6 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
     - Update or reinstall problematic modules.
   - Use the **Module Troubleshooter** to diagnose issues.
 
----
-
 ## General Troubleshooting Tips
 
 - **Check Logs:** Review Asterisk logs (`/var/log/asterisk/full`) and FreePBX logs (**Reports > Asterisk Logs**) for errors.
@@ -2220,6 +2221,8 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
 - **Community Support:** https://community.freepbx.org/
 
 [Main Contents](#contents)
+
+---
 
 # CephFS
 
@@ -2424,8 +2427,6 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
 
   - Roll back to the previous version if necessary.
 
----
-
 ## General Troubleshooting Tips
 
 - **Check Logs:** Review Ceph logs (`/var/log/ceph/`) for errors.
@@ -2557,8 +2558,6 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
   - Verify the script is correctly configured in the LAPS GPO:
     - Check **Computer Configuration > Administrative Templates > LAPS > Configure Script Execution**.
   - Ensure the script has the necessary permissions to run on the target computer.
-
----
 
 ## General Troubleshooting Tips
 
@@ -2735,12 +2734,13 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
     w32tm /query /status
     w32tm /resync
     ```
-[Main Contents](#contents)
-
----
 
 ## General Troubleshooting Tips
 
 - **Check Logs:** Review Event Viewer logs (**Applications and Services Logs > Directory Service**) for errors.
 - **Test Connectivity:** Use tools like `ping`, `nslookup`, and `dcdiag` to diagnose network and DNS issues.
 - **Update AD:** Ensure all DCs are updated to the latest version of Windows Server.
+
+[Main Contents](#contents)
+
+---
