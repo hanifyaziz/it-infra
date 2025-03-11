@@ -2137,6 +2137,10 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
 
 **FreePBX** is a popular open-source GUI (Graphical User Interface) for managing Asterisk, a powerful telephony platform. 
 
+**PBX** = Private Branch eXchange, a hardware system that handles routing and switching of calls between a business location and the telephone network.
+
+**Asterisk** = Software implementation of a private branch exchange (PBX) used to establish and control telephone calls. 
+
 **FreePBX Documentation:** https://sangomakb.atlassian.net/wiki/spaces/FP/pages/9699329/FreePBX+OpenSource+Project
 
 Below is a list of **common problems**, their **symptoms**, and **possible resolutions**:
