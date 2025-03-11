@@ -1785,7 +1785,16 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
 
 # Chocolatey
 
-**Chocolatey** is a package manager for Windows that simplifies software installation, updates, and management. While it is highly efficient, users may encounter issues. 
+**Chocolatey** is a package manager for Windows that simplifies software installation, updates, and management. 
+
+```bash
+choco new testpackage
+```
+
+**Script**
+ - chocolateyBeforeModify.ps1 
+ - chocolateyInstall.ps1	
+ - chocolateyUninstall.ps1
 
 **Chocolatey Documentation:** https://docs.chocolatey.org/en-us/
 
@@ -2497,6 +2506,34 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
 # LAPS
 
 **LAPS (Local Administrator Password Solution)** is a Microsoft solution for managing local administrator passwords on domain-joined computers. 
+
+**Enable LAPS**
+Azure AD --> Device --> Device Settings
+
+**Create Policy**
+- Azure AD
+
+  Endpoint Security --> Account Protection --> + Create Policy
+
+- AD
+
+  GPO --> Admin Templates Policy --> Systems --> LAPS
+
+Checking if the policy applied on the client side
+
+1. RSOP from command prompt
+2. `HKLM>SOFTWARE>Microsoft>Windows>CurrentVersion>Policies>LAPS`
+3. Intune manage `HKLM>SOFTWARE>Microsoft>Policies>LAPS`
+4. Event Viewer `Application and Services Logs>Microsoft>Windows>LAPS`
+   - Event 10020 : When password get updated
+   - Event 10021 : AD Settings
+   - Event 10022 : Intune Settings
+
+Monitor who access the password:
+
+Azure AD --> Audit Logs --> Add `Activity` filter `recover`
+
+
 
 **LAPS Documentation:** https://learn.microsoft.com/en-us/windows-server/identity/laps/laps-overview
 
