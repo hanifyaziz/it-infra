@@ -12,6 +12,7 @@ Tools and Common Issues
 - [Active Backup for Office 365](#active-backup-for-office-365)
 - [Docker](#docker)
 - [Kubernetes](#kubernetes)
+- [S3](#s3)
 - [Zabbix](#zabbix)
 - [Chocolatey](#chocolatey)
 - [pfSense](#pfsense)
@@ -198,13 +199,18 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
   ```
 - **Community Support:** https://openziti.discourse.group/
   
-[Main Contents](#contents)
+[go to Contents](#contents)
 
 ---
 
 # SmartDeploy
 
-**SmartDeploy**, powered by PDQ.com, is a tool for automating OS deployment and imaging. While it simplifies the deployment process, users may encounter issues. 
+**SmartDeploy**, powered by PDQ.com, is a tool for automating OS deployment and imaging.
+
+**Features**
+ - sysprep can be handle by SmartDeploy
+ - Can choose to deploy Standard App or Custom App
+https://smartdeploy.pdq.com/hc/en-us/articles/12982091499163-Create-a-Custom-Application-Pack
 
 **SmartDeploy Documentation:** https://smartdeploy.pdq.com/hc/en-us/articles/21577398522267-Getting-Started-with-SmartDeploy
 
@@ -331,7 +337,7 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
 - **Update SmartDeploy:** Ensure you are using the latest version of SmartDeploy.
 - **Community Support:** https://discord.com/invite/pdq
 
-[Main Contents](#contents)
+[go to Contents](#contents)
 
 ---
 
@@ -466,13 +472,19 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
 - **Update the Agent:** Ensure the NinjaOne agent is updated to the latest version.
 - **Community Support:** https://discord.com/invite/ninjaone
 
-[Main Contents](#contents)
+[go to Contents](#contents)
 
 ---
 
 # Proxmox Virtual Environment (PVE)
 
-**Proxmox Virtual Environment (PVE)** is an open-source server management platform for enterprise virtualization. It tightly integrates the KVM hypervisor and Linux Containers (LXC), software-defined storage and networking functionality, on a single platform. With the integrated web-based user interface you can manage VMs and containers, high availability for clusters, or the integrated disaster recovery tools with ease.
+**Proxmox Virtual Environment (PVE)** is an open-source server management platform for enterprise virtualization.
+
+**Features**
+ - Supports both full VM and container based virtualization on the same host
+ - Kernel-based Virtual Machine (KVM) for virtual machines
+ - Linux Containers (LXC) for containers
+ - Support clustering for HALB
 
 **PVE Documentation:** https://pve.proxmox.com/pve-docs/
 
@@ -611,6 +623,11 @@ Below are some common problems reported by users:
 
 **Proxmox Backup Server (PBS)** is an enterprise-class, client-server backup package which provides strong encryption without compromising on speed or flexibility. The Backup Server is based on a minimal Debian GNU/Linux distribution with built-in ZFS support. Thus, it can be installed on bare-metal, using the downloadable ISO image.
 
+**Features**
+ - Incremental backups. after the initial backup, only changes since the last backup are saved.
+    - Saves storage space
+    - Reduces the time and bandwidth needed for subsequent backups
+
 **PBS Documentation:** https://pbs.proxmox.com/docs/
 
 Below are some common problems reported by users:
@@ -726,7 +743,7 @@ Below are some common problems reported by users:
 - **Monitor Resources:** Use monitoring tools to identify and resolve resource bottlenecks.
 - **Community Support:** https://forum.proxmox.com/
 
-[Main Contents](#contents)
+[go to Contents](#contents)
 
 ---
 
@@ -855,7 +872,7 @@ Below are some common problems reported by users:
 - **Update Software:** Ensure DSM and backup applications are updated to the latest version.
 - **Community Support:** https://community.synology.com/enu
 
-[Main Contents](#contents)
+[go to Contents](#contents)
 
 ---
 
@@ -986,7 +1003,7 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
 - **Update Software:** Ensure DSM and Active Backup for Office 365 are updated to the latest version.
 - **Community Support:**
 
-[Main Contents](#contents)
+[go to Contents](#contents)
 
 ---
 
@@ -1121,7 +1138,7 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
 - **Update Software:** Ensure DSM and Active Backup for Endpoint are updated to the latest version.
 - **Community Support:**
 
-[Main Contents](#contents)
+[go to Contents](#contents)
 
 ---
 
@@ -1313,7 +1330,7 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
 - **Test Locally:** Test configurations on a local environment before deploying to production.
 - **Community Support:** https://forums.docker.com/
 
-[Main Contents](#contents)
+[go to Contents](#contents)
 
 ---
 
@@ -1538,7 +1555,47 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
 - **Update Kubernetes:** Ensure Kubernetes and its components are updated to the latest version.
 - **Community Support:** https://discuss.kubernetes.io/
 
-[Main Contents](#contents)
+[go to Contents](#contents)
+
+---
+
+# S3
+
+AWS Object Storage.
+
+**Feature**
+
+ - Stores data as objects within buckets
+ - Key is a unique identifier for an object within a bucket
+ - Storage capacity is virtually unlimited
+ - S3 Standard, S3 Standard-IA, and Glacier storage classes, your objects are automatically stored across multiple devices spanning a minimum of three Availability Zones
+
+
+**S3 Storage Class**
+
+Frequently Access :
+
+ - **Standard** - For frequently accessed data
+ - **Express One Zone** - High-performance, single AZ storage class designed to deliver consistent single-digit millisecond data access
+
+Infrequently Access :
+
+ - **Standard IA** -  Object data redundantly across multiple geographically separated AZs
+ - **OneZone IA** - Data store in only one AZ (best for data that can be easily reproduce)
+
+Archiving - **Glacier** : 
+
+ - **S3 Glacier Instant Retrieval** - Rarely accessed and must be retrieved in milliseconds
+ - **S3 Glacier Flexible Retrieval** - Data that is accessed once or twice per year
+ - **S3 Glacier Deep Archive** - Data that is accessed rarely in a year.
+
+Retrieval Options:
+
+ - **Expedited** - Quickly access your data when urgent requests are required (1–5 minutes)
+ - **Standard** - Access any of archived objects within several hours (3–5 hours)
+ - **Bulk** - Lowest-cost retrieval option (5–12 hours)
+
+[go to Contents](#contents)
 
 ---
 
@@ -1722,7 +1779,7 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
 - **Update Zabbix:** Ensure Zabbix and its components are updated to the latest version.
 - **Community Support:** https://www.zabbix.com/forum/
 
-[Main Contents](#contents)
+[go to Contents](#contents)
 
 ---
 
@@ -1913,7 +1970,7 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
   ```
 - **Community Support:** https://community.chocolatey.org/
 
-[Main Contents](#contents)
+[go to Contents](#contents)
 
 ---
 
@@ -2063,7 +2120,7 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
   ```
 - **Community Support:** https://forum.netgate.com/
 
-[Main Contents](#contents)
+[go to Contents](#contents)
 
 ---
 
@@ -2220,7 +2277,7 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
   ```
 - **Community Support:** https://community.freepbx.org/
 
-[Main Contents](#contents)
+[go to Contents](#contents)
 
 ---
 
@@ -2433,7 +2490,7 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
 - **Monitor Cluster Health:** Use `ceph status` and `ceph dashboard` to monitor cluster health and performance.
 - **Update Ceph:** Ensure Ceph and CephFS are updated to the latest version.
 
-[Main Contents](#contents)
+[go to Contents](#contents)
 
 ---
 
@@ -2565,7 +2622,7 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
 - **Test Permissions:** Use `Get-AdmPwdPassword` to test password retrieval permissions.
 - **Update LAPS:** Ensure LAPS components are updated to the latest version.
 
-[Main Contents](#contents)
+[go to Contents](#contents)
 
 ---
 
@@ -2741,6 +2798,6 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
 - **Test Connectivity:** Use tools like `ping`, `nslookup`, and `dcdiag` to diagnose network and DNS issues.
 - **Update AD:** Ensure all DCs are updated to the latest version of Windows Server.
 
-[Main Contents](#contents)
+[go to Contents](#contents)
 
 ---
