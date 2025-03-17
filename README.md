@@ -27,6 +27,14 @@ Tools and Common Issues
 
 **OpenZiti** is an open-source, zero-trust networking platform that provides secure, private, and scalable connectivity for applications and services. While it is a powerful solution, users may encounter issues. 
 
+  - Controller: The OpenZiti Controller is the central management component that defines policies, manages identities, and controls access to the network.
+
+  - Edge Routers: These are the components that handle the actual routing of traffic within the OpenZiti network. They establish secure connections between devices and services.
+
+  - Clients: OpenZiti clients (also known as "Ziti Edge Clients") are software components that run on user devices (e.g., laptops, smartphones) or servers. These clients authenticate with the OpenZiti Controller and establish secure connections to the Edge Routers.
+
+  - Services: These are the applications or resources that you want to secure and make accessible over the OpenZiti network. Services can be anything from web applications to databases.
+
 **OpenZiti Documentation:** https://openziti.io/docs/reference/
 
 Below is a list of **common problems**, their **symptoms**, and **possible resolutions**:
