@@ -1624,6 +1624,28 @@ Retrieval Options:
 
 **Zabbix** is a powerful open-source monitoring solution used to track the performance and availability of IT infrastructure. While it is highly effective, users may encounter issues. 
 
+Zabbix Components:
+
+  - **Zabbix Server**: The core component that processes and stores data, triggers alerts, and manages monitoring tasks.
+
+  - **Zabbix Proxy**: An optional component that can be used to offload monitoring tasks from the Zabbix server, especially in distributed environments.
+
+  - **Zabbix Agent**: A lightweight software installed on monitored devices to collect and send data to the Zabbix server.
+
+  - **Zabbix Frontend**: A web-based interface for configuring and managing Zabbix, as well as viewing monitoring data and reports.
+
+Use Cases:
+
+  - **Server Monitoring**: Track CPU, memory, disk usage, and other server metrics.
+
+  - **Network Monitoring**: Monitor network devices (routers, switches) for availability and performance.
+
+  - **Application Monitoring**: Monitor the health and performance of applications and services.
+
+  - **Cloud Monitoring**: Monitor cloud infrastructure and services (e.g., AWS, Azure).
+
+  - **Virtualization Monitoring**: Track the performance of virtual machines and hypervisors (e.g., VMware, Hyper-V).
+
 **Zabbix Documentation:** https://www.zabbix.com/manuals
 
 Below is a list of **common problems**, their **symptoms**, and **possible resolutions**:
@@ -2158,9 +2180,29 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
 
 **FreePBX** is a popular open-source GUI (Graphical User Interface) for managing Asterisk, a powerful telephony platform. 
 
+A a tool that allows you to set up and manage a phone system in organization.
+
 **PBX** = Private Branch eXchange, a hardware system that handles routing and switching of calls between a business location and the telephone network.
 
 **Asterisk** = Software implementation of a private branch exchange (PBX) used to establish and control telephone calls. 
+
+Features of FreePBX
+
+  - **Extensions**: Set up internal phone lines for users.
+
+  - **Trunks**: Connect to external phone lines or VoIP providers.
+
+  - **Call Routing**: Define how calls are routed (e.g., to specific extensions, voicemail, or external numbers).
+
+  - **Voicemail**: Configure voicemail boxes for users.
+
+  - **IVR**: Create automated menus for callers (e.g., "Press 1 for Sales, Press 2 for Support").
+
+  - **Call Recording**: Record calls for quality assurance or compliance.
+
+  - **Reporting**: Generate call detail records (CDRs) and usage reports.
+
+  - **Modules**: Extend functionality with add-on modules (e.g., call center features, CRM integration).
 
 **FreePBX Documentation:** https://sangomakb.atlassian.net/wiki/spaces/FP/pages/9699329/FreePBX+OpenSource+Project
 
