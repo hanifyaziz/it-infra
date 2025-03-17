@@ -213,11 +213,12 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
 
 # SmartDeploy
 
-**SmartDeploy**, powered by PDQ.com, is a tool for automating OS deployment and imaging.
+**SmartDeploy**, powered by PDQ.com, is a tool for deploying and managing operating systems and applications across multiple computers in an organization.
 
 **Features**
+ - Driver Management: use driver library to automatically detect and inject the correct drivers for the target hardware during deployment
  - sysprep can be handle by SmartDeploy
- - Can choose to deploy Standard App or Custom App
+ - Can choose to deploy Standard App or Custom App (bundle application with the image during deployment)
 https://smartdeploy.pdq.com/hc/en-us/articles/12982091499163-Create-a-Custom-Application-Pack
 
 **SmartDeploy Documentation:** https://smartdeploy.pdq.com/hc/en-us/articles/21577398522267-Getting-Started-with-SmartDeploy
@@ -352,6 +353,18 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
 # NinjaOne
 
 **NinjaOne** (formerly NinjaRMM) is a remote monitoring and management (RMM) platform used for IT management, automation, and monitoring. While it is a powerful tool, users may encounter issues. 
+
+  - **Remote Monitoring and Management (RMM): Monitor and manage endpoints like servers, workstations, and mobile devices.
+
+  - **Endpoint Management**: Control and configure devices remotely.
+
+  - **Patch Management**: Automate software updates and security patches.
+
+  - **Backup and Recovery**: Ensure data protection and disaster recovery.
+
+  - **IT Documentation**: Maintain detailed records of IT assets and configurations.
+
+  - **Security**: Provide tools to detect and respond to threats.
 
 Below is a list of **common problems**, their **symptoms**, and **possible resolutions**:
 
