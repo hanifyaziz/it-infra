@@ -354,7 +354,7 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
 
 **NinjaOne** (formerly NinjaRMM) is a remote monitoring and management (RMM) platform used for IT management, automation, and monitoring. While it is a powerful tool, users may encounter issues. 
 
-  - **Remote Monitoring and Management (RMM): Monitor and manage endpoints like servers, workstations, and mobile devices.
+  - **Remote Monitoring and Management (RMM)**: Monitor and manage endpoints like servers, workstations, and mobile devices.
 
   - **Endpoint Management**: Control and configure devices remotely.
 
