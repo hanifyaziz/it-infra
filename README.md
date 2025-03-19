@@ -17,6 +17,7 @@ Tools and Common Issues
 - [Chocolatey](#chocolatey)
 - [pfSense](#pfsense)
 - [FreePBX](#freepbx)
+- [iSCSI](#iscsi)
 - [CephFS](#cephfs)
 - [LAPS](#laps)
 - [Active Directory](#active-directory)
@@ -2354,6 +2355,40 @@ Below is a list of **common problems**, their **symptoms**, and **possible resol
 - **Community Support:** https://community.freepbx.org/
 
 [go to Contents](#contents)
+
+---
+
+# iSCSI
+
+**Internet Small Computer System Interface**, is a protocol used for linking data storage facilities over a network.
+
+**How Does iSCSI Work?**
+
+**Initiator and Target**:
+
+  - The **iSCSI initiator** is the client (e.g., a server or workstation) that requests access to the storage.
+
+  - The **iSCSI target** is the storage device (e.g., a disk array or NAS) that provides the storage resources.
+
+**Encapsulation**:
+
+  - iSCSI encapsulates SCSI commands (used for data transfer) into TCP/IP packets. This allows the SCSI commands to be sent over standard Ethernet networks.
+
+**Network Communication**:
+
+  - The initiator sends iSCSI commands over the network to the target.
+
+  - The target processes these commands and performs the requested operations (e.g., reading or writing data).
+
+**Storage Presentation**:
+
+  - Once connected, the storage on the iSCSI target appears as a local disk to the initiator. This is often referred to as a **block-level** storage device.
+
+**Authentication and Security**:
+
+  - iSCSI supports authentication mechanisms like CHAP (Challenge-Handshake Authentication Protocol) to ensure secure communication between the initiator and target.
+
+  - Optionally, IPsec can be used to encrypt the data transmitted over the network.
 
 ---
 
